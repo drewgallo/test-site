@@ -1,0 +1,29 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import url("http://fonts.googleapis.com/css?family=Cutive+Mono|VT323");
+
+body {
+  background-color: #353535;
+  color: #d4b9e2;
+  font-family: 'VT323';
+//  font-family: 'Cutive Mono'
+}
+
+.intro {
+  float: right;
+  font-size: 24px;
+  padding: 1em;
+}
+
+.email-entry {
+  padding: 1em 0;
+  #mc_embed_signup{
+    clear:left; 
+    font-size:14px;
+    font-family: 'VT323',Helvetica,Arial,sans-serif; 
+  }
+}
